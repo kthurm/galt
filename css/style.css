@@ -1,0 +1,212 @@
+body{font-family: 'Roboto Slab', serif;
+color:rgb(31, 26, 30);
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+padding-top:180px;}
+
+
+/*colors
+blue2 rgb(44, 170, 226);}
+gold: rgb(44,170,226;)
+footer blue: rgb(44, 170, 226);}
+Red rgb(221, 39, 32)
+dark Red rgb(97, 11, 13)
+yellow rgb(255, 201,7)
+gray rgb(149 G-155 166)
+dk blue rgb(0, 62, 126)
+blue/black rgb(31, 26, 30)*/
+
+a:link{text-decoration: none;}
+a:link:hover{color:rgb(44, 170, 226);
+text-decoration: none;}
+
+h1{font-weight: 300;
+font-size: 45pt;
+line-height: 40pt}
+
+h2{font-weight: 300;
+font-size: 36pt;
+line-height: 37pt}
+
+h3{font-size:18pt;
+line-height:28pt;
+font-weight: 300;
+color:#fff;
+margin-bottom: 0;}
+
+li.h3{
+font-weight: 300;
+font-size:18pt;
+line-height:28pt;
+}
+
+h4{font-size:14pt;
+line-height:21pt;
+font-weight: 400;}
+
+h5{font-size:14pt;
+line-height:21pt;
+font-weight: 700;
+color: #fff}
+
+p{font-size:10pt;
+line-height:12pt;
+font-weight: 400;}
+
+/*NAV BAR*/
+.fixedtop{z-index: 1000;
+height:50px;}
+
+
+.logo {
+    height: 85px;
+}
+
+.navbarDropdown, .dropdown-item, .nav-link {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/*.navbar-light .navbar-nav .active>.nav-link{color:rgb(44, 170, 226);}*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(31, 26, 30);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(44, 170, 226);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border: none;
+}
+
+
+/*MAIN*/
+
+#main{z-index: 1;}
+#part1 {
+    background: url(../img/C1.jpg);
+    background-size: cover; 
+}
+
+#part1 h1 {color: rgb(255, 201,7)}
+#part1 h3 {}
+
+#results{background:rgb(97, 11, 13);
+    background-image: url(../img/A2+A3.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 80%;
+}
+
+#results h1, #results h2{color:rgb(221, 39, 32)}
+
+.logoGrid img{max-width: 150px}
+
+#part3{background:rgb(221, 39, 32);}
+#part3 h3{color:#fff;}
+
+#careers h2{color: rgb(0, 62, 126);}
+#careers img{width: 100%;
+max-width: 358px; }
+
+#part4 h2{color:rgb(44, 170, 226);}
+
+#part5 h5{color:rgb(149, 155, 166);}
+#part5 h3{color:rgb(31, 26, 30);}
+
+#part6{
+    background: url(../img/C9.svg);
+    background-size: cover; 
+    min-height: 400px;
+    background-position: center;
+    box-shadow: -6px 4px 22px 0px rgba(0,0,0,0.62);
+-webkit-box-shadow: -6px 4px 22px 0px rgba(0,0,0,0.62);
+-moz-box-shadow: -6px 4px 22px 0px rgba(0,0,0,0.62);
+}
+
+#part6 h2{color:rgb(0, 62, 126)}
+
+#part7 h3{color:rgb(31, 26, 30);}
+#part7 h3 {padding-bottom: 2rem;}
+
+
+/*FOOTER*/
+footer{background: rgb(0, 119, 192);}
+
+footer p, footer h4{
+	font-size: 16px;
+    line-height: 19px;
+	list-style: none;}
+
+footer p{margin-bottom: .4rem;}
+
+footer a{color:#fff;}
+
+footer h4 a{color:rgb(31, 26, 30);
+font-size: 17px;}
+
+
+/*MEDIA QUERIES*/
+@media (min-width: 576px) {
+
+    #careers img{width: 100%;
+max-width: 100%; }
+
+
+
+}
+
+@media (min-width: 768px) {
+
+h1{font-size: 75pt;
+line-height: 75pt}
+
+h2{font-size: 45pt;
+line-height: 45pt}
+
+h3{font-size:24pt;
+line-height:33pt;
+}
+
+li.h3{
+font-size:24pt;
+line-height:33pt;
+}
+
+h4{font-size:18pt;
+line-height:31pt;
+}
+
+h5{font-size:18pt;
+line-height:31pt;}
+
+p{font-size:12pt;
+line-height:14pt;}
+
+
+}
+
+
+@media (min-width: 992px) {
+
+    h1{font-size: 95pt;
+line-height: 87pt}
+
+h2{font-size: 60pt;
+line-height: 60pt}
+
+h3{font-size:24pt;
+line-height:33pt;
+}
+
+    #part6{
+    min-height: 450px;
+}
+}
+
+@media (min-width: 1200px) { 
+}
