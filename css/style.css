@@ -90,11 +90,13 @@ height:50px;}
 #part1 {
     background: url(../img/C1.jpg);
     background-size: cover; 
-    background-position: right
+    background-position: right;
+    background-attachment: fixed;
 }
 
-#part1 h1 {color: rgb(255, 201,7)}
-#part1 h3 {}
+#part1 h3 {
+text-shadow: -1px 0px 1px rgba(9, 0, 0, 0.87);
+}
 
 #results{background:rgb(97, 11, 13);
 }
@@ -102,6 +104,7 @@ height:50px;}
     background-repeat: no-repeat;
     background-position: top right;
     background-size: contain;}
+
 #results h1, #results h2{color:rgb(221, 39, 32)}
 
 .logoGrid img{max-width: 150px}
