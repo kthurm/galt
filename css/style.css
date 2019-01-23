@@ -94,6 +94,9 @@ height:50px;}
     background-attachment: fixed;
 }
 
+#part1 h1 {
+    color:rgb(44,170,226;);
+}
 #part1 h3 {
 text-shadow: -1px 0px 1px rgba(9, 0, 0, 0.87);
 }
