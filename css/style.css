@@ -60,12 +60,12 @@ height:50px;}
 
 
 .logo {
-    height: 85px;
+    height: 60px;
 }
 
 .navbarDropdown, .dropdown-item, .nav-link {
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 13px;
+    line-height: 14px;
 }
 
 /*.navbar-light .navbar-nav .active>.nav-link{color:rgb(44, 170, 226);}*/
@@ -90,18 +90,18 @@ height:50px;}
 #part1 {
     background: url(../img/C1.jpg);
     background-size: cover; 
+    background-position: right
 }
 
 #part1 h1 {color: rgb(255, 201,7)}
 #part1 h3 {}
 
 #results{background:rgb(97, 11, 13);
-    background-image: url(../img/A2+A3.svg);
+}
+.graph{background-image: url(../img/A2+A3.svg);
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: 80%;
-}
-
+    background-size: contain;}
 #results h1, #results h2{color:rgb(221, 39, 32)}
 
 .logoGrid img{max-width: 150px}
@@ -109,9 +109,13 @@ height:50px;}
 #part3{background:rgb(221, 39, 32);}
 #part3 h3{color:#fff;}
 
-#careers h2{color: rgb(0, 62, 126);}
+#careers h2, #careers h1{color: rgb(0, 62, 126);}
 #careers img{width: 100%;
 max-width: 358px; }
+
+img.quote {
+    width: 60%;
+}
 
 #part4 h2{color:rgb(44, 170, 226);}
 
@@ -121,11 +125,11 @@ max-width: 358px; }
 #part6{
     background: url(../img/C9.svg);
     background-size: cover; 
-    min-height: 400px;
+    min-height: 300px;
     background-position: center;
     box-shadow: -6px 4px 22px 0px rgba(0,0,0,0.62);
--webkit-box-shadow: -6px 4px 22px 0px rgba(0,0,0,0.62);
--moz-box-shadow: -6px 4px 22px 0px rgba(0,0,0,0.62);
+    -webkit-box-shadow: -6px 4px 22px 0px rgba(0,0,0,0.62);
+    -moz-box-shadow: -6px 4px 22px 0px rgba(0,0,0,0.62);
 }
 
 #part6 h2{color:rgb(0, 62, 126)}
@@ -138,8 +142,8 @@ max-width: 358px; }
 footer{background: rgb(0, 119, 192);}
 
 footer p, footer h4{
-	font-size: 16px;
-    line-height: 19px;
+	font-size: 13px;
+    line-height: 14px;
 	list-style: none;}
 
 footer p{margin-bottom: .4rem;}
@@ -163,13 +167,13 @@ max-width: 100%; }
 @media (min-width: 768px) {
 
 h1{font-size: 75pt;
-line-height: 75pt}
+line-height: 70pt}
 
-h2{font-size: 45pt;
-line-height: 45pt}
+h2{font-size: 40pt;
+line-height: 40pt}
 
-h3{font-size:24pt;
-line-height:33pt;
+h3{font-size:18pt;
+line-height:24pt;
 }
 
 li.h3{
