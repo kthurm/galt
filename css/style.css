@@ -104,7 +104,7 @@ text-shadow: -1px 0px 1px rgba(9, 0, 0, 0.87);
 }
 .graph{background-image: url(../img/A2+A3.svg);
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: top center;
     background-size: contain;}
 
 #results h1, #results h2{color:rgb(221, 39, 32)}
@@ -137,7 +137,7 @@ img.quote {
     -moz-box-shadow: -6px 4px 22px 0px rgba(0,0,0,0.62);
 }
 
-#part6 h2{color:rgb(0, 62, 126)}
+#part6 h1{color:rgb(0, 119, 192)}
 
 #part7 h3{color:rgb(31, 26, 30);}
 #part7 h3 {padding-bottom: 2rem;}
