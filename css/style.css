@@ -21,12 +21,12 @@ a:link:hover{color:rgb(44, 170, 226);
 text-decoration: none;}
 
 h1{font-weight: 300;
-font-size: 45pt;
-line-height: 40pt}
+font-size: 40pt;
+line-height: 38pt}
 
 h2{font-weight: 300;
-font-size: 36pt;
-line-height: 37pt}
+font-size: 30pt;
+line-height: 34pt}
 
 h3{font-size:18pt;
 line-height:28pt;
@@ -95,21 +95,27 @@ height:50px;}
 
 #part1 h1 {
     color:rgb(255,201,7);
+    text-shadow: -1px 0px 1px rgba(0, 0, 0, 0.6);
 }
 #part1 h3 {
-text-shadow: -1px 0px 1px rgba(9, 0, 0, 0.87);
+text-shadow: -1px 0px 1px rgba(0, 0, 0, 0.9);
 }
 
 #results{background:rgb(97, 11, 13);
 }
 .graph{background-image: url(../img/A2+A3.svg);
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain;}
+    background-position: 30;
+    background-size: contain;
+}
 
 #results h1, #results h2{color:rgb(221, 39, 32)}
 
 .logoGrid img{max-width: 150px}
+
+img.quote {
+    width: 30px;
+}
 
 #part3{background:rgb(221, 39, 32);}
 #part3 h3{color:#fff;}
@@ -118,26 +124,23 @@ text-shadow: -1px 0px 1px rgba(9, 0, 0, 0.87);
 #careers img{width: 100%;
 max-width: 358px; }
 
-img.quote {
-    width: 60%;
-}
-
 #part4 h2{color:rgb(44, 170, 226);}
 
 #part5 h5{color:rgb(149, 155, 166);}
 #part5 h3{color:rgb(31, 26, 30);}
 
+img.img-fluid.book {
+    max-width: 350px;
+}
+
 #part6{
     background: url(../img/C9.svg);
     background-size: cover; 
-    min-height: 300px;
+    min-height: 270px;
     background-position: center;
-    box-shadow: -6px 4px 22px 0px rgba(0,0,0,0.62);
-    -webkit-box-shadow: -6px 4px 22px 0px rgba(0,0,0,0.62);
-    -moz-box-shadow: -6px 4px 22px 0px rgba(0,0,0,0.62);
 }
 
-#part6 h1{color:rgb(0, 119, 192)}
+#part6 h2{color: rgb(0, 62, 126);}
 
 #part7 h3{color:rgb(31, 26, 30);}
 #part7 h3 {padding-bottom: 2rem;}
@@ -162,20 +165,26 @@ font-size: 17px;}
 /*MEDIA QUERIES*/
 @media (min-width: 576px) {
 
-    #careers img{width: 100%;
+ #careers img{width: 100%;
 max-width: 100%; }
 
+img.quote {
+    width: 50px;
+}
 
+img.img-fluid.book {
+ width: 150px;
+}
 
 }
 
 @media (min-width: 768px) {
 
-h1{font-size: 75pt;
-line-height: 70pt}
+h1{font-size: 70pt;
+line-height: 68pt}
 
-h2{font-size: 40pt;
-line-height: 40pt}
+h2{font-size: 38pt;
+line-height: 38pt}
 
 h3{font-size:18pt;
 line-height:24pt;
@@ -196,13 +205,38 @@ line-height:31pt;}
 p{font-size:12pt;
 line-height:14pt;}
 
+img.quote {
+    width: 65px;
+}
 
+.graph{
+    background-position: 180;
+}
+img.img-fluid.book {
+ width: 180px;
+}
 }
 
 
 @media (min-width: 992px) {
 
-    h1{font-size: 95pt;
+h1{font-size: 93pt;
+line-height: 85pt}
+
+h2{font-size: 58pt;
+line-height: 58pt}
+
+img.quote {
+    width: 90px;
+}
+
+img.img-fluid.book {
+    width: 220px;
+}
+
+@media (min-width: 1200px) {
+
+h1{font-size: 95pt;
 line-height: 87pt}
 
 h2{font-size: 60pt;
@@ -212,10 +246,8 @@ h3{font-size:24pt;
 line-height:33pt;
 }
 
-    #part6{
-    min-height: 450px;
-}
-}
+    img.img-fluid.book {
+    width: 300px;
+} 
 
-@media (min-width: 1200px) { 
 }
