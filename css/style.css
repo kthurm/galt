@@ -145,6 +145,110 @@ img.img-fluid.book {
 #part7 h3{color:rgb(31, 26, 30);}
 #part7 h3 {padding-bottom: 2rem;}
 
+/*ABOUT PAGE*/
+#AboutPart1 {
+    background:rgb(44, 170, 226);
+}
+
+#AboutPart1 h1 {
+    color:rgb(240,154,23);
+}
+
+.aboutTopLeft{    
+    background: url(../img/D1.jpg);
+    background-size: cover; 
+    min-height: 270px;
+    background-position: center;
+}
+
+#AboutPart3{background: #000;}
+
+#AboutPart2 h3, #AboutPart4 h3, #AboutPart5 h3{color:rgb(31, 26, 30);
+margin-bottom: 28pt;}
+
+.Ampst{width:30px;}
+
+#AboutPart5 p{
+    margin-bottom: .5rem;
+}
+
+.card-group{-webkit-box-shadow: 3px 6px 23px -4px rgba(0,0,0,0.45);
+-moz-box-shadow: 3px 6px 23px -4px rgba(0,0,0,0.45);
+box-shadow: 3px 6px 23px -4px rgba(0,0,0,0.45);}
+
+.card-img-overlay .reveal {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    overflow: scroll;
+    max-height: 100%;
+}
+
+.card-img-overlay .reveal p {
+font-size: .85rem;
+line-height: 1.3;
+padding-bottom: .425rem;
+}
+
+
+.card-img-overlay:hover .reveal {
+    height: auto;
+    visibility: visible;
+    opacity: 10;
+    transition: opacity 1s ease;
+    font-size: 12px;
+    line-height: 1.1;
+} 
+
+.card-img-overlay:hover {
+   background: rgba(0,0,0, .6);   
+  transition: opacity 1s ease;
+} 
+
+.card-img-overlay:hover {
+   background: rgba(0,0,0, .6);   
+  transition: opacity 1s ease;
+} 
+
+.card-img-overlay:hover h6.card-title{opacity: 0}
+
+.card {
+    background-clip: unset;
+    border: none;
+    border-radius: 0;
+}
+
+.card-body {
+    padding: 2rem 1.25rem .7rem;
+}
+
+.card-img {
+    border-radius: unset;
+}
+
+
+h6.card-title {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 90px;
+}
+
+h5.card-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+p.card-text {
+    font-size: 1rem;
+color: #000;
+line-height: 1.3;}
+
+
+span.blue{color:rgb(44, 170, 226);}
 
 /*FOOTER*/
 footer{background: rgb(0, 119, 192);}
