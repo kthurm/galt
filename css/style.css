@@ -146,12 +146,16 @@ img.img-fluid.book {
 #part7 h3 {padding-bottom: 2rem;}
 
 /*ABOUT PAGE*/
+
 #AboutPart1 {
-    background:rgb(44, 170, 226);
+    background:rgb(97, 11, 13);
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 #AboutPart1 h1 {
-    color:rgb(240,154,23);
+    color:rgb(221, 39, 32);
 }
 
 .aboutTopLeft{    
@@ -161,7 +165,7 @@ img.img-fluid.book {
     background-position: center;
 }
 
-#AboutPart3{background: #000;}
+#AboutPart3{background: rgb(221, 39, 32);}
 
 #AboutPart2 h3, #AboutPart4 h3, #AboutPart5 h3{color:rgb(31, 26, 30);
 margin-bottom: 28pt;}
