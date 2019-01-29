@@ -53,6 +53,10 @@ p{font-size:10pt;
 line-height:12pt;
 font-weight: 400;}
 
+b, strong {
+    font-weight: 700;
+}
+
 /*NAV BAR*/
 .fixedtop{z-index: 1000;
 height:50px;}
