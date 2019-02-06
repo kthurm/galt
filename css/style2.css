@@ -1,0 +1,369 @@
+body{font-family: 'Roboto Slab', serif;
+color:rgb(31, 26, 30);
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+padding-top:120px;}
+
+
+/*colors
+green rgb(166, 198, 76);}
+footer blue: rgb(44, 170, 226);}
+Red rgb(221, 39, 32)
+dark Red rgb(97, 11, 13)
+yellow rgb(255, 201,7)
+gold rgb(240, 154, 23)
+gray rgb(149 G-155 166)
+dk blue rgb(0, 62, 126)
+blue/black rgb(31, 26, 30)*/
+
+a:link{text-decoration: none;}
+a:link:hover{color:rgb(44, 170, 226);
+text-decoration: none;}
+
+h1{font-weight: 300;
+font-size: 40pt;
+line-height: 38pt;
+font-family: 'Playfair Display', serif;}
+
+h2{font-weight: 300;
+font-size: 30pt;
+line-height: 34pt;
+font-family: 'Playfair Display', serif;}
+
+h3{font-size:18pt;
+line-height:28pt;
+font-weight: 300;
+color:#fff;
+margin-bottom: 0;
+font-family: 'Merriweather', serif;
+}
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Merriweather', serif;*/
+
+li.h3{
+font-weight: 300;
+font-size:18pt;
+line-height:28pt;
+}
+
+h4{font-size:14pt;
+line-height:21pt;
+font-weight: 400;}
+
+h5{font-size:18pt;
+line-height:22pt;
+color: #fff;
+font-family: 'Roboto', sans-serif;
+padding-top:10px;
+font-weight: 600;
+}
+
+p{font-size:10pt;
+line-height:12pt;
+font-weight: 400;}
+
+b, strong {
+    font-weight: 700;
+}
+
+/*NAV BAR*/
+.fixedtop{z-index: 1000;
+height:50px;}
+
+
+.logo {
+    height: 60px;
+}
+
+.navbarDropdown, .dropdown-item, .nav-link {
+    font-size: 13px;
+    line-height: 14px;
+}
+
+/*.navbar-light .navbar-nav .active>.nav-link{color:rgb(44, 170, 226);}*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(31, 26, 30);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(44, 170, 226);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border: none;
+}
+
+
+/*MAIN*/
+
+#main{z-index: 1;}
+#part1 {
+    background: url(../img/A1.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#part1 h1 {
+    color:#fff;
+    text-shadow: -1px 0px 1px rgba(0, 0, 0, 0.6);
+    margin:41px 0 55px 20px;
+}
+#part1a h3 {
+color:#000;
+}
+
+#results{background:#000;
+}
+.graph{background-image: url(../img/A2+A3.svg);
+    background-repeat: no-repeat;
+    background-position: 30;
+    background-size: contain;
+    min-height: 400px;
+}
+
+#results h1, #results h2{color:rgb(166, 198, 76);}
+
+#results h3{font-family: 'Merriweather', serif;}
+
+.logoGrid img{max-width: 150px}
+
+img.quote {
+    width: 30px;
+}
+
+#part3{background:rgb(240, 154, 23);}
+#part3 h3{color:#fff;}
+#careers {background: #000;}
+#careers h2, #careers h1{color: rgb(166, 198, 76);}
+#careersA img{width: 100%;
+}
+
+#part4 h2{color:rgb(44, 170, 226);}
+
+#part5 h5{color:rgb(149, 155, 166);}
+#part5 h3{color:rgb(31, 26, 30);}
+
+img.img-fluid.book {
+    max-width: 350px;
+}
+
+#part6{
+    background: url(../img/A16.jpg);
+    background-size: cover; 
+    min-height: 270px;
+    background-position: center;
+}
+
+#part6 h2{color: #fff;}
+
+#part7 h1, #part7 h3{color:rgb(31, 26, 30);}
+#part7 h3 {padding-bottom: 2rem;}
+
+/*ABOUT PAGE*/
+
+#AboutPart1 {
+    background:rgb(97, 11, 13);
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#AboutPart1 h1 {
+    color:rgb(221, 39, 32);
+}
+
+.aboutTopLeft{    
+    background: url(../img/D1.jpg);
+    background-size: cover; 
+    min-height: 270px;
+    background-position: center;
+}
+
+#AboutPart3{background: rgb(221, 39, 32);}
+
+#AboutPart2 h3, #AboutPart4 h3, #AboutPart5 h3{color:rgb(31, 26, 30);
+margin-bottom: 28pt;}
+
+.Ampst{width:30px;}
+
+#AboutPart5 p{
+    margin-bottom: .5rem;
+}
+
+.card-group{-webkit-box-shadow: 3px 6px 23px -4px rgba(0,0,0,0.45);
+-moz-box-shadow: 3px 6px 23px -4px rgba(0,0,0,0.45);
+box-shadow: 3px 6px 23px -4px rgba(0,0,0,0.45);}
+
+.card-img-overlay .reveal {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    max-height: 100%;
+}
+
+.card-img-overlay .reveal p {
+font-size: .85rem;
+line-height: 1.3;
+padding-bottom: .425rem;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+
+.card-img-overlay span.yellow {
+color:rgb(255, 201,7);
+font-weight: 700;
+}
+
+
+.card-img-overlay:hover .reveal {
+    height: auto;
+    visibility: visible;
+    opacity: 10;
+    transition: opacity 1s ease;
+    font-size: 12px;
+    line-height: 1.1;
+} 
+
+.card-img-overlay:hover {
+   background: rgba(0,0,0, .6);   
+  transition: opacity 1s ease;
+} 
+
+.card-img-overlay:hover {
+   background: rgba(0,0,0, .6);   
+  transition: opacity 1s ease;
+} 
+
+.card-img-overlay:hover h6.card-title{opacity: 0}
+
+.card {
+    background-clip: unset;
+    border: none;
+    border-radius: 0;
+}
+
+.card-body {
+    padding: .5rem 1.25rem 2.3rem;
+}
+
+
+.card-img {
+    border-radius: unset;
+}
+
+
+h6.card-title {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 90px;
+}
+
+h5.card-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+p.card-text {
+    font-size: 1rem;
+color: #000;
+line-height: 1.3;}
+
+
+span.blue{color:rgb(44, 170, 226);}
+
+/*FOOTER*/
+footer{background: rgb(31, 26, 30);}
+
+footer p, footer h4{
+	font-size: 13px;
+    line-height: 14px;
+	list-style: none;}
+
+footer p{margin-bottom: .4rem;}
+
+footer a{color:#fff;}
+
+footer h4 a{
+    color:rgb(44, 170, 226);
+font-size: 17px;}
+
+
+/*MEDIA QUERIES*/
+@media (min-width: 576px) {
+
+ #careers img{width: 100%;
+max-width: 100%; }
+
+img.quote {
+    width: 50px;
+}
+
+img.img-fluid.book {
+ width: 150px;
+}
+
+}
+
+@media (min-width: 768px) {
+
+h1{font-size: 52pt;
+line-height: 65pt}
+
+h2{font-size: 52pt;
+}
+
+
+li.h3{
+font-size:24pt;
+line-height:33pt;
+}
+
+h4{font-size:18pt;
+line-height:31pt;
+}
+
+h5{padding-right:60px;}
+
+p{font-size:12pt;
+line-height:14pt;}
+
+img.quote {
+    width: 65px;
+}
+
+.graph{
+background-position: 80px;
+}
+
+img.img-fluid.book {
+ width: 210px;
+}
+}
+
+
+@media (min-width: 992px) {
+
+img.quote {
+    width: 90px;
+}
+
+img.img-fluid.book {
+    width: 220px;
+}
+}
+
+@media (min-width: 1200px) {
+
+
+
+}
