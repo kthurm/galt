@@ -199,6 +199,12 @@ margin-bottom: 28pt;}
     margin-bottom: .5rem;
 }
 
+#AboutPart5 h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
 .card-group{-webkit-box-shadow: 3px 6px 23px -4px rgba(0,0,0,0.45);
 -moz-box-shadow: 3px 6px 23px -4px rgba(0,0,0,0.45);
 box-shadow: 3px 6px 23px -4px rgba(0,0,0,0.45);}
@@ -337,6 +343,10 @@ line-height:33pt;
 
 h4{font-size:18pt;
 line-height:24pt;
+}
+
+#AboutPart5 h4{ font-size: 14pt;
+    line-height: 28pt;
 }
 
 h5{padding-right:60px;}
