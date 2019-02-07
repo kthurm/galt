@@ -15,7 +15,9 @@ yellow rgb(255, 201,7)
 gold rgb(240, 154, 23)
 gray rgb(149 G-155 166)
 dk blue rgb(0, 62, 126)
-blue/black rgb(31, 26, 30)*/
+blue/black rgb(31, 26, 30)
+lightgreen rgb(166, 198, 76)
+*/
 
 a:link{text-decoration: none;}
 a:link:hover{color:rgb(44, 170, 226);
@@ -53,7 +55,7 @@ h4{font-size:14pt;
 line-height:21pt;
 font-weight: 400;}
 
-h5{font-size:18pt;
+h5{font-size:16pt;
 line-height:22pt;
 color: #fff;
 font-family: 'Roboto', sans-serif;
@@ -168,24 +170,25 @@ img.img-fluid.book {
 /*ABOUT PAGE*/
 
 #AboutPart1 {
-    background:rgb(97, 11, 13);
+    background:rgb(166, 198, 76);
     background-size: 50%;
     background-position: right;
     background-repeat: no-repeat;
 }
 
 #AboutPart1 h1 {
-    color:rgb(221, 39, 32);
+    color:#fff;
 }
 
 .aboutTopLeft{    
-    background: url(../img/D1.jpg);
+    background: url(../img/B1.jpg);
     background-size: cover; 
     min-height: 270px;
     background-position: center;
 }
 
-#AboutPart3{background: rgb(221, 39, 32);}
+#AboutPart3{background:rgb(166, 198, 76);}
+#AboutPart3 h3{color:000;}
 
 #AboutPart2 h3, #AboutPart4 h3, #AboutPart5 h3{color:rgb(31, 26, 30);
 margin-bottom: 28pt;}
@@ -319,6 +322,10 @@ img.img-fluid.book {
 h1{font-size: 52pt;
 line-height: 65pt}
 
+#AboutPart1 h1 {
+    line-height: 48pt;
+}
+
 h2{font-size: 52pt;
 }
 
@@ -338,7 +345,7 @@ p{font-size:12pt;
 line-height:14pt;}
 
 img.quote {
-    width: 65px;
+    width: 80px;
 }
 
 .graph{
@@ -354,7 +361,7 @@ img.img-fluid.book {
 @media (min-width: 992px) {
 
 img.quote {
-    width: 90px;
+    width: 100px;
 }
 
 img.img-fluid.book {
