@@ -187,8 +187,8 @@ img.img-fluid.book {
     background-position: center;
 }
 
-#AboutPart3{background:rgb(166, 198, 76);}
-#AboutPart3 h3{color:000;}
+#AboutPart3, #AboutQuote2 {background:rgb(166, 198, 76);}
+#AboutPart3 h3, #AboutQuote2 h3{color:000;}
 
 #AboutPart2 h3, #AboutPart4 h3, #AboutPart5 h3{color:rgb(31, 26, 30);
 margin-bottom: 28pt;}
