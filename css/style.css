@@ -21,12 +21,12 @@ a:link:hover{color:rgb(44, 170, 226);
 text-decoration: none;}
 
 a.white{color:#fff;
-   font-size: 13pt;
+   font-size: 15px;
 border-bottom: 1px solid #fff;
     }
 a.black{color:#000;
         border-bottom: 1px solid #fff;
-       font-size: 13pt;
+       font-size: 15px;
        border-bottom: 1px solid #000;
 }
 
