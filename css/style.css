@@ -166,12 +166,13 @@ max-width: 358px; }
     color: #fff;
    /* padding: 15px 50px 0 50px;*/
     font-size: 15pt;
-    line-height: 22pt;
+    line-height: 20pt;
     margin-bottom: 0;
 }
 
 #careers2 p.color{color:#ffc906;
-/*padding:0 50px;*/}
+font-size: 15pt;
+    line-height: 20pt;}
 
 #part4 h2{color:rgb(0, 66, 179);}
 
@@ -201,9 +202,10 @@ img.img-fluid.book {
 /*ABOUT PAGE*/
 
 #AboutPart1 h1 {
-    color:rgb(0, 175, 154);
-}
+    color:rgb(255, 201,7);
+    text-shadow: -1px 0px 1px rgba(0, 0, 0, 0.9);
 
+}
 
 #AboutPart3{background: rgb(0, 175, 154);}
 
@@ -400,8 +402,8 @@ img.img-fluid.book {
 h1{font-size: 95pt;
 line-height: 87pt}
 
-h2{font-size: 60pt;
-line-height: 60pt}
+h2{font-size: 58pt;
+line-height: 58pt}
 
 h3{font-size:24pt;
 line-height:33pt;}
@@ -446,7 +448,8 @@ header video {
 header .container-fluid {
   position: relative;
   z-index: 2;
-  opacity: 1
+  opacity: 1;
+  min-height: 600px;
 }
 
 header .overlay {
