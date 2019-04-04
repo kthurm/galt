@@ -144,6 +144,8 @@ img.quote {
     width: 30px;
 }
 
+#Quote h3 {color:#caf8f9;}
+
 #part3{background:#000;}
 
 #part3 h3{color:#caf8f9;}
@@ -207,10 +209,12 @@ img.img-fluid.book {
 
 }
 
-#AboutPart3{background: rgb(0, 175, 154);}
+#AboutPart3{background: #000;}
 
-#AboutPart2 h3, #AboutPart4 h3, #AboutPart5 h3{color:rgb(44, 170, 226);
-margin-bottom: 28pt;}
+#AboutPart2 h3, #AboutPart4 h3, #AboutPart5 h3 {
+    color: #000;
+    margin-bottom: 28pt;
+}
 
 .Ampst{width:30px;}
 
