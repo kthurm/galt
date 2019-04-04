@@ -144,9 +144,10 @@ img.quote {
     width: 30px;
 }
 
-#Quote h3 {color:#caf8f9;}
+#Quote h3 {color:#caf8f9;
+}
 
-#part3{background:#000;}
+#part3, #Quote{background:#000;}
 
 #part3 h3{color:#caf8f9;}
 
