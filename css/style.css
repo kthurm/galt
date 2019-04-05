@@ -154,7 +154,8 @@ img.quote {
 #part3 a.white{color:#caf8f9;
 border-bottom: 1px solid #caf8f9;}
 
-#part3 h5 {color:#caf8f9;}
+#part3 h5 {color:#caf8f9;
+font-size:15pt;}
 
 #careers, #careers2{background:rgb(0, 119, 192);}
 
@@ -203,6 +204,7 @@ img.img-fluid.book {
 #part7 h3 {padding-bottom: 2rem;}
 
 /*ABOUT PAGE*/
+
 
 #AboutPart1 h1 {
     color:rgb(255, 201,7);
