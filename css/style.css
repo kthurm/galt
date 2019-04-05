@@ -144,7 +144,7 @@ img.quote {
     width: 30px;
 }
 
-#Quote h3 {color:#caf8f9;
+#Quote h3, #Quote h5 {color:#caf8f9;
 }
 
 #part3, #Quote{background:#000;}
@@ -398,9 +398,6 @@ line-height: 50pt}
 
 h3{font-size:24pt;
 line-height:33pt;}
-
-h5{font-size:18pt;
-line-height:22pt;}
 
 img.quote {
     width: 90px;
