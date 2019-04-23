@@ -79,6 +79,7 @@ height:50px;}
 
 .logo {
     height: 78px;
+    max-width: 166px;
 }
 
 .navbarDropdown, .dropdown-item, .nav-link {
