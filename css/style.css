@@ -155,10 +155,11 @@ height:50px;}
 }  
 
 .slide-out-right {
-  -webkit-animation: slide-out-right 3.5s ease-out 1s forwards;
-          animation: slide-out-right 3.5s ease-out 1s forwards;
+  -webkit-animation: slide-out-right 4s ease-out 2s forwards;
+          animation: slide-out-right 4s ease-out 2s forwards;
 }
 
+.revealOnScroll { opacity: 0; }
 
 #results h1, #results h2{color:rgb(0, 175, 154)}
 
