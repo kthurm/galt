@@ -465,11 +465,13 @@ img.img-fluid.book {
 
 
 h2{font-size: 58px;
+  line-height: 63px;
 }
 
+
 .graph {
-    min-height: 470px;
-    background-position: 71px;
+min-height: 442px;
+background-position: 81px;
 }
 
 img.img-fluid.book {
