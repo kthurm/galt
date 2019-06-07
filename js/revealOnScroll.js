@@ -2,7 +2,7 @@ $(window).scroll(function() {
 
       var scroll = $(window).scrollTop();
 
-      var objectSelect = $("#part1");
+      var objectSelect = $("#part1Text");
 
       var objectPosition = objectSelect.offset().top;
 

@@ -156,8 +156,8 @@ height:50px;}
 }  
 
 .slide-out-right {
-  -webkit-animation: slide-out-right 4s ease-out 3s forwards;
-          animation: slide-out-right 4s ease-out 3s forwards;
+  -webkit-animation: slide-out-right 5s ease-out 1s forwards;
+          animation: slide-out-right 5s ease-out 1s forwards;
 }
 
 .revealOnScroll {
